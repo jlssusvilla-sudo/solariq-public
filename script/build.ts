@@ -15,7 +15,6 @@ await build({
   platform: "node",
   format: "cjs",
   target: "node20",
-  packages: "external",
   sourcemap: true,
   define: {
     "process.env.NODE_ENV": '"production"',
